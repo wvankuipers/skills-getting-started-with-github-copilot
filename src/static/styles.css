@@ -74,6 +74,77 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border: 1px solid #c5cae9;
+  border-radius: 6px;
+  background-color: #eef2fb;
+}
+
+.participants-section h5 {
+  margin-bottom: 8px;
+  color: #3949ab;
+  font-size: 1rem;
+}
+
+.participants-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.participants-section li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 5px 0;
+  overflow-wrap: anywhere;
+}
+
+.participants-section li span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.participants-section li:last-child {
+  padding-bottom: 0;
+}
+
+.delete-participant-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border: 1px solid #ef9a9a;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #c62828;
+}
+
+.delete-participant-button:hover {
+  background-color: #ffebee;
+}
+
+.delete-participant-button:focus-visible {
+  outline: 3px solid #7986cb;
+  outline-offset: 2px;
+}
+
+.delete-participant-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.participants-section .participants-empty {
+  margin-bottom: 0;
+  color: #666;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
